@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {RouterLink, RouterOutlet} from '@angular/router';
+import {SampleEntitiesComponent} from './component/sample-entities/sample-entities.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [SampleEntitiesComponent, RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
