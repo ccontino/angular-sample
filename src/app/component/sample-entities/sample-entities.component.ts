@@ -9,7 +9,6 @@ import {
   MatRow, MatRowDef,
   MatTable
 } from '@angular/material/table';
-import {JsonPipe} from '@angular/common';
 import {SampleEntity} from '../../dto/sample-entity.model';
 import {SampleEntityService} from '../../service/sample-entity.service';
 import {lastValueFrom} from 'rxjs';
@@ -34,7 +33,6 @@ import {MatButton, MatButtonModule} from '@angular/material/button';
     MatCell,
     MatHeaderRow,
     MatRow,
-    JsonPipe,
     MatCellDef,
     MatHeaderCellDef,
     MatHeaderRowDef,

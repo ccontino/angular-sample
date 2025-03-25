@@ -4,7 +4,7 @@ import {SampleEntitiesComponent} from './component/sample-entities/sample-entiti
 
 @Component({
   selector: 'app-root',
-  imports: [SampleEntitiesComponent, RouterOutlet, RouterLink],
+  imports: [RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
